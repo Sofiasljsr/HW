@@ -5,6 +5,6 @@
 "Результат = <результат множення>".
 '''
 n = input("Tell me a number!")
-square = n * n
+square = int(n) * int(n)
 
-print("The result is: " + square)
+print("The result is: " + str(square))
