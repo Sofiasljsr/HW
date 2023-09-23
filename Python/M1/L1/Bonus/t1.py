@@ -3,5 +3,5 @@
 
 За допомогою аргумента format відформатуй рядок так, щоб він мав наступний вигляд:
 '''
-
-print("This is {}. It’s {}! I {} like programming! It’s {}!")
+txt = "This is {language}. It’s {adj}! I {how} like programming! It’s {adj}!"
+print(txt.format(language = "Python", adj = "cool", how = "really"))

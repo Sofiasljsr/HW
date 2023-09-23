@@ -7,3 +7,5 @@ Hello, name
 
 Зверніть увагу, що Hello потрібно писати з великої літери.
 '''
+name = input("What is your name?")
+print("Hello, " + name + ".")
