@@ -6,6 +6,6 @@
 
 a = input("Введи число 1:")
 b = input("Введи число 2:")
-c = a + b
+c = int(a) + int(b)
 print("і сума дорівнює:")
 print(c)

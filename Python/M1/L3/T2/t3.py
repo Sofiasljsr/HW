@@ -6,3 +6,6 @@
 Скільки яблук виявиться у господаря яблуні на третій рік?
 '''
 apple = 50  # яблука в перший рік
+year_two = apple * 2
+third_year = year_two * 2
+print(third_year)
